@@ -11,6 +11,7 @@ export default function Main() {
                     autoPlay
                     loop
                     muted
+                    playsInline
                 />
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                     <button className="rounded-lg bg-transparent border-2 border-white px-4 py-2">
