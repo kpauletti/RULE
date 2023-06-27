@@ -15,7 +15,7 @@ export default function NavigationBar() {
     // }, [menuScrolled]);
 
     return (
-        <div className="sticky top-0 bg-background">
+        <div className="absolute top-0 bg-transparent z-20 w-screen">
             <div className="navbar">
                 <div className="flex w-full h-16 justify-end items-center">
                     <Image
